@@ -25,7 +25,10 @@ virtualenv env
 5. Export following environment variables with Elasticsearch IP address and port:
  ```
    export es_hostname='Your ELK IP'
-   export es_port='Your ELK port (9200 by default)'  
+   export es_port='Your ELK port (9200 by default)'
+   export es_username='Your ELK username'
+   export es_password='Your ELK password'
+   
   ```
 6. Run the program using Python3:
 ``` python 
